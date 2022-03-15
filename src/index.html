@@ -1,17 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-MX" dir="ltr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Juan Carrillo García">
+    <title>Boletín CenDoc DGD TEPJF</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <link href="css/site.css" rel="stylesheet">
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+    <main class="main" id="top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 backdrop"
+            data-navbar-on-scroll="data-navbar-on-scroll">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center fw-semi-bold fs-3" href="#">
+                    <img class="me-3" src="img/tepjflogo.svg" alt="" height="50" />
+                    <div class="text-primary">| CenDoc</div>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+                </div>
+            </div>
+        </nav>
+        <section id="home" class="m-0 p-0 py-0 pt-5 pt-sm-5">
+            <div class="bg-holder d-none d-md-block"
+                style="background-image:url(img/hero-section.png);background-position:right bottom;background-size:contain;">
+            </div>
+            <div class="container mt-5 mt-md-0">
+                <div class="row align-items-center min-vh-md-75">
+                    <div class="col-md-12 col-lg-11 col-xl-10 col-xxl-9 py-5 text-sm-start text-center"
+                        style="background-color:rgba(240,240,240,.85)">
+                        <h1 class="display-2">Boletín de novedades</h1>
+                        <h2 class="display-4">Centro de documentación</h2>
+                        <p class="mb-4 fs-1">DGD | TEPJF</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-5">Boletín de novedades</h2>
+                    <p class="lead">Primer boletín, semana 1 de abril de 2022</p>
+                </div>
+                <div class="bg-light shadow-sm mx-auto"
+                    style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+
+                </div>
+            </div>
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-5">Boletín de novedades</h2>
+                    <p class="lead">Segundo boletín, semana 1 de abril de 2022</p>
+                </div>
+                <div class="bg-light shadow-sm mx-auto"
+                    style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+
+                </div>
+            </div>
+        </div>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-5">Boletín de novedades</h2>
+                    <p class="lead">Primer boletín, semana 2 de abril de 2022</p>
+                </div>
+                <div class="bg-light shadow-sm mx-auto"
+                    style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+
+                </div>
+            </div>
+            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-5">Boletín de novedades</h2>
+                    <p class="lead">Segundo boletín, semana 2 de abril de 2022</p>
+                </div>
+                <div class="bg-light shadow-sm mx-auto"
+                    style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                Dirección General de Documentación | Tribunal Electoral del Poder Judicial
+                de la Federación
+                <small class="d-block mb-3 text-muted">© 2022</small>
+            </div>
+        </div>
+    </footer>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
